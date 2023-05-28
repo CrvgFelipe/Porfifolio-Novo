@@ -34,14 +34,15 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
+  padding: 5px;
 
 }
 
 .icon-bar {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background-color: #5f5f5f;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .menu-items {
