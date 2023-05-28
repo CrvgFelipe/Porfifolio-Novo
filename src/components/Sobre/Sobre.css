@@ -87,7 +87,7 @@
 
 @media (max-width: 480px) {
   .sobre-mim {
-    background-image: url(bg32.png);
+    background-image: url(../bg32.png);
     padding: 20px;
   }
 
