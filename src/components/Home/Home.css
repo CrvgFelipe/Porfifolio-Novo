@@ -53,17 +53,17 @@
 
 @keyframes rotateEffect {
   0% {
-    box-shadow: 0 0 85px rgb(89, 213, 238), 0 0 60px rgba(67, 189, 245, 0.942), 0 0 80px rgb(0, 225, 255);
+    box-shadow: 0 0 15px rgb(89, 213, 238), 0 0 30px rgba(67, 189, 245, 0.942), 0 0 40px rgb(0, 225, 255);
     transform: rotate(90deg);
   }
 
   50% {
-    box-shadow: 0 0 85px rgba(186, 186, 186, 0.853), 0 0 60px rgb(4, 221, 254), 0 0 80px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(186, 186, 186, 0.853), 0 0 30px rgb(4, 221, 254), 0 0 40px rgba(255, 255, 255, 0.8);
     transform: rotate(180deg);
   }
 
   100% {
-    box-shadow: 0 0 85px rgb(104, 227, 198), 0 0 60px rgba(48, 255, 155, 0.99), 0 0 80px rgb(5, 255, 80);
+    box-shadow: 0 0 15px rgb(104, 227, 198), 0 0 30px rgba(48, 255, 155, 0.99), 0 0 40px rgb(5, 255, 80);
     transform: rotate(360deg);
   }
 }
