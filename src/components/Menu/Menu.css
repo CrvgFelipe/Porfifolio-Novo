@@ -126,8 +126,8 @@
   .menu-toggle {
      display: flex;
     position: absolute;
-    top: 15px;
-    left: 15px; 
+    top: 17px;
+    left: 17px; 
     transform: translate(-50%, -50%);
     z-index: 9999; 
 
