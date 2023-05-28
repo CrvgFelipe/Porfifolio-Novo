@@ -1,0 +1,114 @@
+/* JÁ QUE VEIO ATÉ AQUI, SEGUE LA NO INSTA TAMBÉM: @Crvg_Felipe */
+
+.sobre-mim {
+  padding: 75px;
+  background-image: url(teste.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.sobre-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sobre-mim p {
+  font-size: large;
+  padding: 10px;
+  line-height: 1.5em;
+  font-family: 'Sumana', serif;
+
+}
+
+.sobre-mim h2 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 5px;
+  border-bottom: 5px solid #ffffff;
+  text-shadow: #8b8b8bab 0.1em 0.1em 0.1em;
+  font-family: 'Cookie', cursive;
+  font-weight: 50;
+  padding: 35px;
+}
+
+.sobre-mim h3 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-shadow: #8b8b8bab 0.1em 0.1em 0.1em;
+  font-family: 'Cookie', cursive;
+  font-weight: 50;
+  padding: 20px;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icones a img {
+  width: 60px;
+  height: 60px;
+  padding: 4px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mim {
+    margin-top: 10%;
+    background-size: auto;
+
+  }
+
+  .sobre-mim h2 {
+    font-size: 40px;
+
+  }
+
+  .sobre-mim h3 {
+    font-size: 30px;
+
+  }
+
+  .icones {
+    flex-wrap: wrap;
+  }
+
+  .icones a img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-mim {
+    background-image: url(bg32.png);
+    padding: 20px;
+  }
+
+  .sobre-mim p {
+    font-size: 15px;
+
+  }
+
+  .sobre-mim h2 {
+    font-size: 30px;
+
+  }
+
+  .sobre-mim h3 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .icones a img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+}

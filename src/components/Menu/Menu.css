@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Sumana&display=swap');
+
+                  /* JÁ QUE VEIO ATÉ AQUI, SEGUE LA NO INSTA TAMBÉM: @Crvg_Felipe */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  
+  display: flex;
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: 'Bungee Hairline', cursive;
+  text-shadow: #c6c6c6 0.1em 0.1em 0.1em;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.13) 1.95px 1.95px 2.6px;
+  z-index: 999;
+
+}
+
+
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+
+}
+
+.icon-bar {
+  width: 25px;
+  height: 3px;
+  background-color: #5f5f5f;
+  margin-bottom: 5px;
+}
+
+.menu-items {
+  list-style-type: none;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Sumana', serif;
+  margin: auto;
+
+
+}
+
+.menu-items.open {
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  justify-content: center;
+  border-bottom: 3px solid #66d6fa;
+  justify-content: center;
+
+
+}
+
+.menu li {
+  padding-right: 15px;
+}
+
+.nav-menu {
+
+  display: flex;
+
+
+}
+
+
+.menu a:hover {
+  border-top: 3px solid #66d6fa;
+  color: #66d6fa;
+}
+
+/* Estilos para a versão mobile */
+@media (max-width: 768px) {
+  .logo {
+   
+    margin: 0 auto;
+    align-items: center;
+    border-bottom: 1px solid #66d6fa;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+
+
+  }
+
+  .menu a {
+    border-bottom: none;
+  }
+
+  .menu li {
+    border-bottom: 1px solid #66d6fa;
+  }
+
+  .nav-menu {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+
+  }
+
+  .menu-toggle {
+    display: flex;
+    margin-top: -55px;
+    padding: 15px;
+
+  }
+
+  .menu-items {
+    display: none;
+
+
+  }
+
+  .menu-items.open {
+    display: flex;
+    padding: 30px;
+
+
+  }
+
+}
