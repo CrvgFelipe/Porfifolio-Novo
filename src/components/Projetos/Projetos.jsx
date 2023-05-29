@@ -48,7 +48,7 @@ const Projetos = () => {
 
   ];
 
-  const [visibleProjects, setVisibleProjects] = useState(allProjects.slice(0, 3));
+  const [visibleProjects, setVisibleProjects] = useState(allProjects.slice(0, 4));
   const [showAllProjects, setShowAllProjects] = useState(false);
 
   const handleShowMore = () => {
