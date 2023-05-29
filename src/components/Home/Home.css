@@ -224,5 +224,6 @@
   .profile-image-effect {
     width: 197px;
     height: 196px;
+    box-shadow: none;
   }
 }
