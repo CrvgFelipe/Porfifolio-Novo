@@ -6,7 +6,7 @@ import '../Home/Home.css';
 const Home = () => {
   const [text, setText] = useState('');
   const fullText = 'Desenvolvedor Full Stack Junior'; // Texto que será digitado
-  const typingInterval = 150; // Intervalo de digitação 
+  const typingInterval = 180; // Intervalo de digitação 
 
   useEffect(() => {
     let currentIndex = 0;
