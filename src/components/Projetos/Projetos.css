@@ -183,7 +183,7 @@
   }
 
   .repo {
-    width: 80px;
+    width: 82px;
   }
 
   .btn-ver {
@@ -240,7 +240,8 @@
   }
 
   .repo {
-    width: 60px;
+    width: 64px;
+    white-space: nowrap;
   }
 
   .btn-ver {
