@@ -166,7 +166,8 @@
   .project-item .imgP {
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
 
   .project-links {
