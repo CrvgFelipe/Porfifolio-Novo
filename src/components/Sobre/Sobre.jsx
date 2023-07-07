@@ -10,14 +10,7 @@ const Sobre = () => {
 
       <h2>Sobre Mim</h2>
       <div className="sobre-c" data-aos="fade-up" data-aos-delay="230" data-aos-duration="900" >
-        <p>Olá! Meu nome é Felipe Costa e sou apaixonado por tecnologia. Recentemente,
-          participei de um bootcamp pelo projeto Programadores Cariocas,
-          oferecido em parceria entre a Prefeitura do Rio de Janeiro, o Senac e a Resilia.
-          Durante os intensos 6 meses do curso, adquiri conhecimentos abrangentes e me senti impulsionado a seguir carreira na área de tecnologia.
-          Aprendi sobre desenvolvimento web, programação back-end, bancos de dados e muito mais.
-          Essa experiência solidificou minha paixão pela área e me motivou a buscar constantemente aprendizado e crescimento profissional.
-          Estou entusiasmado para contribuir para projetos desafiadores e trabalhar em equipe,
-          aproveitando cada oportunidade para avançar na carreira tecnológica.</p>
+        <p>Olá! Meu nome é Felipe Costa e sou apaixonado por tecnologia. Recentemente, participei de um bootcamp promovido pelo projeto Programadores Cariocas, onde adquiri conhecimentos abrangentes em diversas áreas da tecnologia. Atualmente, estou cursando análise e desenvolvimento de sistemas, buscando aprofundar meu conhecimento nessa área. Estou entusiasmado para aplicar o que aprendi em projetos desafiadores e trabalhar em equipe, sempre em busca de crescimento profissional.</p>
 
         <h3>Habilidades</h3>
         <div className="icones">
